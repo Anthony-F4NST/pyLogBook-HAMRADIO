@@ -247,7 +247,7 @@ def main():
         elif choix == "5":
             afficher_statistiques(indicatif_station)
         elif choix == "6":
-            print(f"73 de Mia ! Bon trafic, {indicatif_station}.")
+            print(f"73 ! Bon trafic, {indicatif_station}.")
             break
         else:
             print("Option invalide.")
