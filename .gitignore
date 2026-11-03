@@ -1,0 +1,8 @@
+# Ne pas envoyer les données locales de la station
+radio_logbook.csv
+logbook_config.txt
+
+# Fichiers temporaires Python
+__pycache__/
+*.pyc
+
