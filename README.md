@@ -6,7 +6,7 @@ Un carnet de trafic (Logbook) radioamateur ultra-léger et moderne, développé 
 
 * **Double Interface synchrone :** 
   * Une version **Console** (`logbook.py`) pour les passionnés du terminal Bash.
-  * Une version **Graphique GUI** (`logbook_gui.py`) basée sur Tkinter pour un confort visuel optimal.
+chmod +x logbook.py logbook_gui.py  * Une version **Graphique GUI** (`logbook_gui.py`) basée sur Tkinter pour un confort visuel optimal.
 * **Gestion du temps différé :** Idéal pour consigner vos QSO faits en mobile ou portable. Possibilité de modifier la date et l'heure UTC (avec validation stricte des formats).
 * **Tri Chronologique automatique :** Les QSO sont ré-ordonnés intelligemment par date et heure, et ré-indexés à la volée.
 * **Moteur de recherche intégré :** Recherche rapide et partielle par indicatif.
@@ -18,7 +18,7 @@ Un carnet de trafic (Logbook) radioamateur ultra-léger et moderne, développé 
 Ce projet a été conçu pour s'adapter à votre philosophie d'utilisation. Les scripts sont **totalement autonomes mais synchrones**. Vous pouvez choisir de télécharger :
 
 * **Uniquement la version Console (`logbook.py`) :** Idéal pour les configurations ultra-légères, les serveurs SSH ou les puristes du terminal (ne nécessite pas l'installation de `python3-tk`).
-chmod +x logbook.py logbook_gui.py* **Uniquement la version Graphique (`logbook_gui.py`) :** Parfait pour un confort visuel moderne avec formulaire et tableau dynamique Treeview.
+* **Uniquement la version Graphique (`logbook_gui.py`) :** Parfait pour un confort visuel moderne avec formulaire et tableau dynamique Treeview.
 * **Les deux scripts :** Pour avoir le choix selon votre humeur du jour ! Les deux applications liront et écriront exactement dans le même fichier `radio_logbook.csv` (à condition qu'elles soient placées dans le même dossier).
 
 ## 📦 Installation sous Linux
@@ -85,7 +85,7 @@ Pour lancer la version **Graphique (GUI)** :
 La version **Console** affiche un tableau fixe de **115 caractères de large**. Sur des écrans compacts (comme les Asus EeePC) ou avec la configuration par défaut de certains terminaux (souvent limités à 80 colonnes), le cadre en `===` risque de se briser visuellement en passant à la ligne.
 
 Pour conserver l'alignement géométrique parfait :
-1. Passez votre terminal en plein écran (touche **F11** sous Lubuntu).
+1. Passez votre terminal en plein écran (touche **F11** sous ubuntu).
 2. Si nécessaire, réduisez légèrement la taille de la police du terminal (raccourci **Ctrl + "-"**).
 3. Assurez-vous que la fenêtre de votre terminal fait au moins 115 colonnes de large.
 
