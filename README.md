@@ -1,4 +1,3 @@
-```markdown
 # pyLogbook-HamRadio 📻💻
 
 Un carnet de trafic (Logbook) radioamateur ultra-léger et moderne, développé spécifiquement pour les systèmes Linux (comme Lubuntu, Debian, Ubuntu). Ce projet propose deux versions interchangeables qui travaillent sur la même base de données locale ouverte (format CSV).
@@ -19,7 +18,7 @@ Un carnet de trafic (Logbook) radioamateur ultra-léger et moderne, développé 
 Ce projet a été conçu pour s'adapter à votre philosophie d'utilisation. Les scripts sont **totalement autonomes mais synchrones**. Vous pouvez choisir de télécharger :
 
 * **Uniquement la version Console (`logbook.py`) :** Idéal pour les configurations ultra-légères, les serveurs SSH ou les puristes du terminal (ne nécessite pas l'installation de `python3-tk`).
-* **Uniquement la version Graphique (`logbook_gui.py`) :** Parfait pour un confort visuel moderne avec formulaire et tableau dynamique Treeview.
+chmod +x logbook.py logbook_gui.py* **Uniquement la version Graphique (`logbook_gui.py`) :** Parfait pour un confort visuel moderne avec formulaire et tableau dynamique Treeview.
 * **Les deux scripts :** Pour avoir le choix selon votre humeur du jour ! Les deux applications liront et écriront exactement dans le même fichier `radio_logbook.csv` (à condition qu'elles soient placées dans le même dossier).
 
 ## 📦 Installation sous Linux
