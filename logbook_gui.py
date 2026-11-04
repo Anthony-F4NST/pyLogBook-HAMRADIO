@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import csv
 import os
+import webbrowser
 from datetime import datetime, timezone
 import tkinter as tk
 from tkinter import messagebox, ttk
@@ -194,6 +195,10 @@ class LogbookApp:
         ttk.Button(
             cadre_rech, text="Tous les QSO", command=self.effacer_filtre_gui
         ).pack(side="left", padx=5)
+        # Nouveau Bouton QRZ.com inséré à la volée !
+        ttk.Button(
+            cadre_rech, text="Profil QRZ.com", command=self.ouvrir_qrz_gui
+        ).pack(side="left", padx=5)
 
         cadre_table = ttk.Frame(self.root, padding=10)
         cadre_table.pack(fill="both", expand=True)
@@ -314,6 +319,14 @@ class LogbookApp:
         if compteur == 0:
             messagebox.showinfo("Recherche", f"Aucun QSO pour {term}.")
             self.rafraichir_tableau()
+
+    def ouvrir_qrz_gui(self):
+        term = self.var_recherche.get().strip().upper()
+        if not term:
+            messagebox.showwarning("Attention", "Veuillez entrer un indicatif pour chercher sur QRZ.com.")
+            return
+        url_qrz = f"https://www.qrz.com/lookup/{term}"
+        webbrowser.open(url_qrz)
 
     def effacer_filtre_gui(self):
         self.var_recherche.set("")
