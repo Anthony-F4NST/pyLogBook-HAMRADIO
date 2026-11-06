@@ -2,6 +2,14 @@
 
 Un carnet de trafic (Logbook) radioamateur ultra-léger et moderne, développé spécifiquement pour les systèmes Linux (comme Lubuntu, Debian, Ubuntu). Ce projet propose deux versions interchangeables qui travaillent sur la même base de données locale ouverte (format CSV).
 
+---
+
+## 📖 Documentation complète (Wiki)
+Pour découvrir les guides d'installation multiplateformes (Linux, Windows, BSD), les optimisations spécifiques pour les petits écrans terminaux (Asus EeePC) ou la gestion d'énergie sur le terrain, consultez notre espace dédié :
+👉 **[Accéder au Wiki de pyLogBook](https://github.com)**
+
+---
+
 ## 🚀 Fonctionnalités
 
 * **Double Interface synchrone :** 
