@@ -6,7 +6,7 @@ Un carnet de trafic (Logbook) radioamateur ultra-léger et moderne, développé 
 
 ## 📖 Documentation complète (Wiki)
 Pour découvrir les guides d'installation multiplateformes (Linux, Windows, BSD), les optimisations spécifiques pour les petits écrans terminaux (Asus EeePC) ou la gestion d'énergie sur le terrain, consultez notre espace dédié :
-👉 **[Accéder au Wiki de pyLogBook](https://github.com)**
+👉 **[Accéder au Wiki de pyLogBook](../../wiki)**
 
 ---
 
